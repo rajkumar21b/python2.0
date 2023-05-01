@@ -1,0 +1,15 @@
+d={}
+n=int(input("ENTER THE NO OF PLAYERS:"))
+for i in range(1,n+1) :
+    pno=int(input("ENTER PLAYER NUMBER:"))
+    pname=input("ENTER A PLAYER NAME:")
+    d[pno]=pname
+print(d)
+
+OUTPUT:
+ENTER THE NO OF PLAYERS:2
+ENTER PLAYER NUMBER:1
+ENTER A PLAYER NAME:dhoni
+ENTER PLAYER NUMBER:2
+ENTER A PLAYER NAME:virat
+{1: 'dhoni', 2: 'virat'}
