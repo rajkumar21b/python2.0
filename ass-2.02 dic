@@ -1,0 +1,34 @@
+d={}
+n=int(input("ENTER THE NO OF STUDENTS:"))
+for i in range(1,n+1) :
+    l=[]
+    sno=int(input("ENTER STUDENT NUMBER:"))
+    sname=input("ENTER A STUDENT NAME:")
+    group=input("ENTER GROUP NAME:")
+    clg=input("ENTER COLLEGE NAME:")
+    bra=input("ENTER BRANCH NAME:")
+    spnum=int(input("ENTER PHONE NUMBER:"))
+    l.append(sno)
+    l.append(sname)
+    l.append(group)
+    l.append(clg)
+    l.append(bra)
+    l.append(spnum)
+    d[sno]=l
+print(d)
+
+OUTPUT:
+ENTER THE NO OF STUDENTS:2
+ENTER STUDENT NUMBER:1
+ENTER A STUDENT NAME:raj kumar
+ENTER GROUP NAME:section 1
+ENTER COLLEGE NAME:aditya
+ENTER BRANCH NAME:bca
+ENTER PHONE NUMBER:798913714555
+ENTER STUDENT NUMBER:2
+ENTER A STUDENT NAME:venkat
+ENTER GROUP NAME:section 2
+ENTER COLLEGE NAME:aditya
+ENTER BRANCH NAME:bca
+ENTER PHONE NUMBER:9666409653333
+{1: [1, 'raj kumar', 'section 1', 'aditya', 'bca', 798913714555], 2: [2, 'venkat', 'section 2', 'aditya', 'bca', 9666409653333]}
