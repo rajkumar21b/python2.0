@@ -1,0 +1,15 @@
+l=list(map(int,input("ENTER NUMBERS INTO LIST:").split()))
+d={}
+for i in l :
+    if i not in d :
+        d[i]=1 
+    else :
+        d[i]=d[i]+1 
+m=list(d.values())
+print("max:",d[max(m)])
+print("min",d[min(m)])
+
+OUTPUT :
+ENTER NUMBERS INTO LIST:1 2 3 2 3 1 4 5 3 4 6 3
+max:3
+min:6
