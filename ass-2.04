@@ -6,10 +6,8 @@ for i in l :
     else :
         d[i]=d[i]+1 
 m=list(d.values())
-print("max:",d[max(m)])
-print("min",d[min(m)])
+print("difference:"abs(d[max(m)-d[min(m)]))
 
 OUTPUT :
 ENTER NUMBERS INTO LIST:1 2 3 2 3 1 4 5 3 4 6 3
-max:3
-min:6
+difference:3
