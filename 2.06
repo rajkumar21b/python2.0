@@ -1,0 +1,15 @@
+d={}
+n=int(input("ENTER NUMBER OF STUDENTS:"))
+for i in range(1,n+1) :
+    name,rank=input("ENTER NAME AND RANK:").split()
+    d[name]=rank
+for i in d :
+    print(i,d[i],"THE EXAM")
+  
+OUTPUT :
+ENTER NUMBER OF STUDENTS:2
+ENTER NAME AND RANK:RAJ PASS
+ENTER NAME AND RANK:VENKAT PASS
+RAJ PASS THE EXAM
+VENKAT PASS THE EXAM
+
