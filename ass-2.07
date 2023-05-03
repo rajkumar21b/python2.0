@@ -1,0 +1,16 @@
+d={}
+n=input("ENTER WORD:")
+ch=input("ENTER WHICH CHARACTER:")
+for i in n :
+    if i not in d :
+        d[i]=1
+    else :
+        d[i]=d[i]+1 
+for i in d :
+    if i==ch :
+        print(i,d[i])
+        
+OUTPUT :
+ENTER WORD:RAJ KUMAR
+ENTER WHICH CHARACTER:R
+R 2
