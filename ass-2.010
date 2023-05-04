@@ -1,0 +1,17 @@
+class palindrome:
+    def pd(self,p) :
+        m=str(p)
+        if str(p)==m[::-1] :
+            return True 
+        else :
+            return False
+d=palindrome()
+n=int(input("ENTER A NUMBER:"))
+if d.pd(n) :
+    print("THE GIVE NUMBER IS PALINDROME:",n)
+else :
+    print("THE GIVE NUMBER IS NOT PALNDROME:",n)
+    
+OUTPUT :
+ENTER A NUMBER:123321
+THE GIVE NUMBER IS PALINDROME: 123321
