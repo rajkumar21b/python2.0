@@ -1,0 +1,16 @@
+class febnocciseries :
+    def fs(self,n) :
+        f1=0
+        f2=1
+        l=[]
+        for i in range(n) :
+            l.append(f1)
+            f1,f2=f2,f1+f2
+        return l
+n=int(input("ENTER A NUMBER TO UPTO SERIES:"))
+p=febnocciseries()
+print("THE FEBNOCCISERIES IS:",p.fs(n))
+
+OUTPUT :
+ENTER A NUMBER TO UPTO SERIES:10
+THE FEBNOCCISERIES IS: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
