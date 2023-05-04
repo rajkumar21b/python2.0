@@ -1,0 +1,16 @@
+class leapyear:
+    def ly(self,year) :
+        if year%4==0 or year%100==0 :
+            return True
+        else :
+            return False
+lp=leapyear()
+n=int(input("ENTER THE YEAR:"))
+if lp.ly(n) :
+    print("GIVE NUMBER IS LEAP YEAR:",n)
+else :
+    print("GIVE NUMBER IS NOT LEAP YEAR:",n)
+ 
+ OUTPUT :
+ENTER THE YEAR:2023
+GIVE NUMBER IS NOT LEAP YEAR:2023
