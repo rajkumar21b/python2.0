@@ -1,0 +1,21 @@
+import math
+n=int(input("ENTER A UPTO N NUMBER:"))
+l=[]
+for i in range(0,n+1) :
+    l.append(1)
+l[0]=0
+l[1]=0
+x=int(math.sqrt(n))
+for i in range(2,x+1) :
+    if l[i]==1 :
+        for j in range(i*i,n,i) :
+            l[j]=0
+sum=0
+for i in range(2,n) :
+    if l[i]==1 :
+        sum=sum+i
+print(sum)
+
+OUTPUT :
+ENTER A UPTO N NUMBER:10
+17
