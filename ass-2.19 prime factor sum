@@ -1,0 +1,16 @@
+import math
+n=int(input("ENTER THE NUMBER:"))
+c=0
+while(n%2==0):
+    c=c+2
+    n=n//2 
+for i in range(3,int(math.sqrt(n))+1,2):
+    while(n%i==0):
+        c=c+i
+        n=n//i
+if n>2:
+    c=c+1
+print("THE COUNT OF PRIME FACTOR:",c)
+
+ENTER THE NUMBER:200
+THE COUNT OF PRIME FACTOR:16
