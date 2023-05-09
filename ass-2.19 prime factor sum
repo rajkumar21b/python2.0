@@ -10,7 +10,7 @@ for i in range(3,int(math.sqrt(n))+1,2):
         n=n//i
 if n>2:
     c=c+1
-print("THE COUNT OF PRIME FACTOR:",c)
+print("THE SUM OF PRIME FACTOR:",c)
 
 ENTER THE NUMBER:200
-THE COUNT OF PRIME FACTOR:16
+THE SUM OF PRIME FACTOR:16
